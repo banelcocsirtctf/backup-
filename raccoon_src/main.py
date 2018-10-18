@@ -127,7 +127,7 @@ def main(target,
         HelpUtilities.validate_wordlist_args(proxy_list, wordlist, subdomain_list)
         HelpUtilities.validate_proxy_args(tor_routing, proxy, proxy_list)
         HelpUtilities.create_output_directory(outdir)
-
+#variable
         if tor_routing:
             logger.info("{} Testing that Tor service is up...".format(COLORED_COMBOS.NOTIFY))
         elif proxy_list:
@@ -253,7 +253,7 @@ def main(target,
 
                 while nmap_thread.is_alive():
                     time.sleep(15)
-
+#variable
         logger.info("\n{}### Raccoon scan finished ###{}\n".format(COLOR.GRAY, COLOR.RESET))
         os.system("stty sane")
 
