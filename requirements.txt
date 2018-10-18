@@ -5,3 +5,4 @@ lxml==4.2.1
 beautifulsoup4==4.6.0
 fake-useragent
 PySocks==1.6.8
+#backup
