@@ -11,7 +11,7 @@ HTTP = "http://"
 HTTPS = "https://"
 BASE_S3_URL = "s3.amazonaws.com"
 
-
+#add variable
 class Storage:
 
     def __init__(self, host, logger):
