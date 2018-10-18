@@ -6,7 +6,7 @@ from raccoon_src.utils.exceptions import FuzzerException, RequestHandlerExceptio
 from raccoon_src.utils.logger import SystemOutLogger
 
 
-class TestURLFuzzer(unittest.TestCase):
+#class TestURLFuzzer(unittest.TestCase):
 
     def setUp(self):
         self.TestHost = Host
@@ -15,7 +15,7 @@ class TestURLFuzzer(unittest.TestCase):
         self.TestFuzzer.get_log_file_path = lambda _, __: SystemOutLogger()
         self.loop = asyncio.get_event_loop()
 
-    def test_bad_wordlist(self):
+#    def test_bad_wordlist(self):
         host = self.TestHost("127.0.0.1", ())
         with self.assertRaises(FuzzerException):
             fuzzer = self.TestFuzzer(host, (), path_to_wordlist="no/such/path", num_threads=1)
