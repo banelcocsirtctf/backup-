@@ -9,6 +9,7 @@ from raccoon_src.utils.coloring import COLOR, COLORED_COMBOS
 from raccoon_src.utils.exceptions import WebAppScannerException, WebServerValidatorException
 from raccoon_src.utils.logger import Logger
 
+#myapp
 
 class WebApplicationScanner:
 
