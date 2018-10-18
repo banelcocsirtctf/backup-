@@ -7,7 +7,7 @@ class Cookie:
         pass
 
 
-class Response:
+##class Response:
     headers = {}
 
 
