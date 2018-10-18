@@ -30,6 +30,7 @@ class ScannerException(RaccoonException):
     def __str__(self):
         return self._message
 
+csirt{G1tHuBChAng3l0g}
 
 class WAFException(RaccoonException):
     def __init__(self, message='WAF Exception'):
