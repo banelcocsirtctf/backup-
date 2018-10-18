@@ -6,6 +6,7 @@ from raccoon_src.utils.exceptions import RaccoonException
 from raccoon_src.utils.logger import Logger
 from raccoon_src.utils.coloring import COLOR, COLORED_COMBOS
 
+#dns
 
 # noinspection PyUnboundLocalVariable
 class DNSHandler:
@@ -33,7 +34,7 @@ class DNSHandler:
                     continue
 
         return {k: v for k, v in results.items() if v}
-
+#dns
     @classmethod
     async def grab_whois(cls, host):
         if not host.naked:
