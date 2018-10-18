@@ -6,6 +6,7 @@ smtp
 webdisk
 pop
 cpanel
+#adding
 whm
 ns1
 ns2
@@ -106,6 +107,7 @@ web2
 upload
 home
 bbs
+#nice
 login
 app
 en
