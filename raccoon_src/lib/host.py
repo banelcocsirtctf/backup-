@@ -36,7 +36,7 @@ class Host:
             os.makedirs("/".join(path.split("/")[:-1]), exist_ok=True)
         except FileExistsError:
             pass
-
+#revisar
     def validate_ip(self, addr=None):
         if not addr:
             addr = self.target
@@ -71,7 +71,7 @@ class Host:
             else:
                 raise HostHandlerException("Unknown or unsupported protocol: {}".format(self.target.split("://")[0]))
         return
-
+#revisar2
     def write_up(self):
         self.logger.info("{} Writing DNS query results".format(COLORED_COMBOS.GOOD, self))
 
