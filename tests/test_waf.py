@@ -1,7 +1,7 @@
 import unittest
 from raccoon_src.lib.waf import WAFApplicationMethods
 
-
+#test_waf
 class Response:
     headers = {}
 
