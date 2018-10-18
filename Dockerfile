@@ -6,3 +6,4 @@ RUN adduser -D raccoon
 USER raccoon
 ENTRYPOINT ["raccoon"]
 CMD ["--help"]
+#end
