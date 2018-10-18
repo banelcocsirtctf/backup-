@@ -2,7 +2,7 @@ import unittest
 from raccoon_src.lib.host import Host
 from raccoon_src.utils.exceptions import HostHandlerException
 
-
+#testing
 class TestHost(unittest.TestCase):
 
     def setUp(self):
@@ -33,7 +33,7 @@ class TestHost(unittest.TestCase):
         with self.assertRaises(HostHandlerException):
             host = self.TestHost("ftp://www.example.com", ())
             host.parse()
-
+#backup
     def test_ip_detected(self):
         host = self.TestHost("10.10.10.75", ())
         host.parse()
