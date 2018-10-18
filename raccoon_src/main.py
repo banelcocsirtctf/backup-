@@ -3,6 +3,7 @@ import asyncio
 import threading
 import click
 import os
+import small
 
 from raccoon_src.utils.coloring import COLOR, COLORED_COMBOS
 from raccoon_src.utils.exceptions import RaccoonException, HostHandlerException
@@ -21,6 +22,7 @@ from raccoon_src.lib.web_app import WebApplicationScanner
 # Set path for relative access to builtin files.
 MY_PATH = os.path.abspath(os.path.dirname(__file__))
 
+name = name2
 
 def intro(logger):
     logger.info("""{}
