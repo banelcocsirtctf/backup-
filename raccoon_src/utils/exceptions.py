@@ -48,7 +48,6 @@ class RequestHandlerException(RaccoonException):
     def __str__(self):
         return self._message
 
-CSIRT{G1tHuBChAng3l0g}
 
 class RequestHandlerConnectionReset(RequestHandlerException):
 
@@ -57,7 +56,7 @@ class RequestHandlerConnectionReset(RequestHandlerException):
 
     def __str__(self):
         return self._message
-#testing
+
 
 class WebAppScannerException(RaccoonException):
     def __init__(self, message='Web Application Scanner Exception'):
