@@ -1,3 +1,4 @@
+#tls
 import re
 from platform import system
 # noinspection PyProtectedMember
