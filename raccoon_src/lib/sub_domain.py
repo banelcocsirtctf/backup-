@@ -1,3 +1,4 @@
+#domain
 import re
 from bs4 import BeautifulSoup
 from raccoon_src.utils.request_handler import RequestHandler
@@ -50,7 +51,7 @@ class SubDomainEnumerator:
             domain = self.host.target.split(".")
             tld_less = domain[1]
             domain = ".".join(domain[1:])
-
+#domain
         for san in self.sans:
             if (tld_less in san or domain in san) and self.target != san and not san.startswith("*"):
                 self.logger.info("{} Subdomain detected: {}".format(COLORED_COMBOS.GOOD, san))
