@@ -95,3 +95,12 @@ echo " with new multi encryption based algorithm on ASCII and Symbols substituti
 
 }
 export -f imr0t_colour 
+
+
+lightgreen='\e[1;32m'
+white='\e[1;37m'
+#red='\e[1;31m'
+yellow='\e[1;33m'
+BlueF='\e[1;34m'
+RESET=$(tput sgr0)
+
